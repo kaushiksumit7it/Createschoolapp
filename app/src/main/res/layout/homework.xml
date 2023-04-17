@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#CFCFCF"
+    tools:context=".HomeWork">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/homesubject"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/homedate"
+                android:textStyle="bold"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textSize="20sp"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#787676"/>
+        <TextView
+            android:id="@+id/homewrite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Writting"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/note"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Dear student kindly go through the attach file"
+            android:textSize="15sp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/homeworkimage"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

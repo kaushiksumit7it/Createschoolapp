@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Academicsession">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sanskar Residentaial Public School"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(10+2)"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="10dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/school"
+        app:civ_border_width="2dp"
+        android:layout_gravity="center"
+        app:civ_border_color="#FF000000"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Affiliated to CBSE New Delhi)"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main office: (555)666-88888"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Counseling office:- (555)6666-88888"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website:- onlineschoolname.com"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Principal:- Niranjan Kumar"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="School counselors:- Cherie Blake,Frank Morgan Lee Wendell."
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+</LinearLayout>

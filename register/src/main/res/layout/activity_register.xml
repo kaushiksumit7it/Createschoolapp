@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Register">
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <EditText
+
+        android:hint="Enter Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regname"/>
+    <EditText
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regemail"
+        android:hint="Enter Email"/>
+    <EditText
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:id="@+id/regpass"/>
+    <EditText
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter ClassName"
+        android:id="@+id/clssname"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Roll No"
+        android:id="@+id/rollnumber"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:id="@+id/gender"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Father Name"
+        android:id="@+id/fathername"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mother Name"
+        android:id="@+id/mothername"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:id="@+id/address"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DOB"
+        android:id="@+id/dateofbitrh"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:id="@+id/mobilenumber"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total Fee"
+        android:id="@+id/totalfee"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total dues"
+        android:id="@+id/totaldues"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Result"
+        android:id="@+id/finalresule"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_gravity="center"
+        android:id="@+id/registerbtn"/>
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/gotologin"
+
+        android:layout_gravity="center"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/registerprogress"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

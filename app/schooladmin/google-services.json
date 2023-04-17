@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "774102454834",
+    "project_id": "createschoolapp-67c08",
+    "storage_bucket": "createschoolapp-67c08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774102454834:android:831d553bf4d5016839e22b",
+        "android_client_info": {
+          "package_name": "com.niranjan.createschoolapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774102454834-oj1vf5l8bcrtdqjrpij79cgi4jpc3kqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw2TQH_KzZrbkLmRlh9X5IwrSvpZKmW4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774102454834-oj1vf5l8bcrtdqjrpij79cgi4jpc3kqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774102454834:android:00952f67f92083ac39e22b",
+        "android_client_info": {
+          "package_name": "com.niranjan.schooladmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774102454834-oj1vf5l8bcrtdqjrpij79cgi4jpc3kqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw2TQH_KzZrbkLmRlh9X5IwrSvpZKmW4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774102454834-oj1vf5l8bcrtdqjrpij79cgi4jpc3kqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

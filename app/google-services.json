@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "197200653507",
+    "project_id": "createschoolapp-8b8d9",
+    "storage_bucket": "createschoolapp-8b8d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197200653507:android:bc326c3160977771f04676",
+        "android_client_info": {
+          "package_name": "com.niranjan.createschoolapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197200653507-87kbesemkettibti6m45hgo0u63m6hr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU7Ovi4V3z5iqo0-eZ9I2wtnZzhA8dlFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197200653507-87kbesemkettibti6m45hgo0u63m6hr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
